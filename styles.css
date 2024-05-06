@@ -1,0 +1,80 @@
+nav-links ul{
+    list-style-type: none;
+    margin: 5%;
+    padding: 0%;
+    text-align: right;
+    margin-top: 2px;
+}
+.nav-links ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 0%;
+    top: 3px;
+}
+body{
+    background-image: url(https://en.idei.club/uploads/posts/2023-06/1686132493_en-idei-club-p-beautiful-home-dizain-8.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.image-container {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  align-items: center;
+}
+
+
+.image-container .image-wrapper {
+  margin: 10px; 
+  text-align: center; 
+}
+
+.image-container img {
+  max-width: 50%;
+  margin-right: 20px; 
+}
+
+.image-container .caption {
+  margin-top: 5px; 
+  margin: 0;
+}
+.container {
+  display: flex; 
+  align-items: center; 
+}
+
+.container img {
+  max-width: 50%; 
+  margin-right: 20px; 
+}
+
+.container p {
+  margin: 0; 
+}
+  .cover{
+    width: 900px;
+    height:500px;
+    display: flex;
+  }
+  .box{
+    margin:10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: -1px 0 10px black;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchform{
+    margin-top: 2px;
+  }
+ 
